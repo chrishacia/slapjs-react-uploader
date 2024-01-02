@@ -142,7 +142,7 @@ const App = () => {
           <p>
             {fp.file.name} ({Math.round(fp.file.size / 1024)} KB)
           </p>
-          <progress value={fp.progress} max="100">Monkey</progress>
+          <progress value={fp.progress} max="100"></progress>
           <span>{fp.progress}%</span>
         </div>
       ))}
